@@ -16,13 +16,13 @@ img{
 body{
     background-color: transparent;
     background-size: cover;
-    background-image: url("../images/backgrounds/bg4.jpg");
+   
 }
 /* .bkglvl1{
-    background-image:url("/images/pics/10.jpg");
+    background-image:url("../images/pics/10.jpg");
 }
 .bkglvl2{
-    background-image:url("/images/pics/13.jpg");
+    background-image:url("../images/pics/13.jpg");
 } */
 
 #health, #speed, #monster-health, #timer{
@@ -75,7 +75,7 @@ body{
 
 /* Modal Content/Box */
 .modal-content {
-    background-image: url(/images/pics/9.webp);
+    background-image: url(../images/pics/9.webp);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: darkcyan; */
@@ -129,13 +129,44 @@ body{
  #gameBorder{
     border: 5px solid black;
     width: 1300px;
-    height: 400px;
+    height: 490px;
     margin: auto;
-    
-    background-image: url("/images/backgrounds/gameBg3.gif") ;
+   
     background-repeat: no-repeat;
-background-size: 100% 100%;
+    background-size: 100% 100%;
     
+}
+.gameborderBkg1{
+    
+    background-image: url("../images/backgrounds/gameBg1.gif") ;
+}
+.gameBkg1{
+    
+    background-image: url("../images/backgrounds/bg1.jpg") ;
+}
+.gameborderBkg2{
+    
+    background-image: url("../images/backgrounds/gameBg2.gif") ;
+}
+.gameBkg2{
+    
+    background-image: url("../images/backgrounds/bg2.jpg") ;
+}
+.gameborderBkg3{
+    
+    background-image: url("../images/backgrounds/gameBg3.gif") ;
+}
+.gameBkg3{
+    
+    background-image: url("../images/backgrounds/bg3.jpg") ;
+}
+.gameborderBkg4{
+    
+    background-image: url("../images/backgrounds/gameBg4.gif") ;
+}
+.gameBkg4{
+    
+    background-image: url("../images/backgrounds/bg4.jpg") ;
 }
 #gameBar{
     width: 900px;
@@ -162,7 +193,7 @@ background-size: 100% 100%;
     background-color: rebeccapurple;
     width: fit-content;
     text-align: center;
-    padding: 5px;
+    padding:10px;
     font-size: 15px;
     font-style:italic;
     font-weight: bold;
@@ -174,7 +205,7 @@ background-size: 100% 100%;
     margin: 5px;
 }
 #characterSpeed{
-    width: 100px;
+    /* width: 100px; */
     height: fit-content;
     background-color: royalblue;
     margin: 5px;
@@ -188,7 +219,7 @@ background-size: 100% 100%;
     background-color: rebeccapurple;
     width: fit-content;
     text-align: center;
-    padding: 5px;   
+    padding: 10px;  
     font-size: 15px;
     font-style:italic;
     font-weight: bold;
@@ -200,7 +231,7 @@ background-size: 100% 100%;
     margin: 5px;
 }
 #monsterSpeed{
-    width: 100px;
+    /* width: 100px; */
     height: fit-content;
     background-color: royalblue;
     margin: 5px;
@@ -220,3 +251,28 @@ background-size: 100% 100%;
     background-color: red;
 }
 
+
+#changeround {
+
+    font-size:80px;
+    font-family: 'Erica One', cursive;
+    margin-top: 7%;
+    color:#701350;
+    text-shadow: 0 0 5px #bb7da8, 0 0 25px #f77bc7, 0 0 50px #e497d9,0 0 100px #eca6e9;
+    filter: blur( 0.5 px);
+    /*box-shadow: 0 0 5px #FF3300, 0 0 25px #FF0000, 0 0 50px #FF3300,0 0 100px #FF6600;*/
+    border-top: 2px solid rgb(226, 30, 213);
+    border-bottom: 2px solid #70305a;
+    border-left: 2px solid  #660544;
+    border-right: 2px solid   #cf2293;
+    border-radius:10px;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 34%;
+      width:400px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+
+
+  }
