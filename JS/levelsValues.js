@@ -43,9 +43,7 @@ function updateTimer() {
 function start() 
 {  
     timer = setInterval(updateTimer, 1000);
-    updateTimer();
-    playaudio(0);
-  
+    updateTimer();  
 }
 
 
@@ -121,6 +119,10 @@ function checktimenw(){
   }
   else if(flag==3){
     playaudio(1);
+  }
+  else if(flag==6){
+    playaudio(0);
+    gameOver();
   }
   else {
     playaudio(0);

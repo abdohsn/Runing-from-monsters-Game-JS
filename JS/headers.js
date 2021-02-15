@@ -23,7 +23,7 @@ function myLoop() {
     document.getElementById("modal-text").style.color = "green";
     modalText.style.backgroundImage = "url('/images/pics/gh.jpg')";
     modal.style.display = "block";
-    gameOver();
+    
   }
 
 }  
@@ -31,14 +31,8 @@ function myLoop() {
 myLoop();
 
 
-
 var modal = document.getElementById("myModal");
-
-
-
 var modalText = document.getElementsByClassName("modal-content")[0]
-
-
 var contBtn = document.getElementById("contBtn");
 
 

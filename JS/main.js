@@ -78,15 +78,15 @@ window.onload = function(){
 
 let audioSource = document.querySelector("#audio-player");
 let songsList = {
-  background1:"sounds/Forest_birds.wav",//0
-  background2:"sounds/GHOSTS.wav",//1
-  Eating:"sounds/Human_Bite_Food.mp3",//2
-  Hit:"sounds/wallbody_impact.wav",//3
-  win:"sounds/win.wav",//4
-  running:"sounds/running.wav",//5
-  levelUp:"sounds/level-up.wav",//6
-  Gamestart:"sounds/game-start.ogg",//7
-  GameOver:"sounds/game-over.wav",//8
+  background1:"../sounds/Forest_birds.wav",//0
+  background2:"../sounds/GHOSTS.wav",//1
+  Eating:"../sounds/Human_Bite_Food.mp3",//2
+  Hit:"../sounds/wallbody_impact.wav",//3
+  win:"../sounds/win.wav",//4
+  running:"../sounds/running.wav",//5
+  levelUp:"../sounds/level-up.wav",//6
+  Gamestart:"../sounds/game-start.ogg",//7
+  GameOver:"../sounds/game-over.wav",//8
 };
 
 let keys = Object.keys(songsList);
