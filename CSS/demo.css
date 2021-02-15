@@ -16,7 +16,7 @@ img{
 body{
     background-color: transparent;
     background-size: cover;
-    background-image: url("/images/backgrounds/bg4.jpg");
+    background-image: url("../images/backgrounds/bg4.jpg");
 }
 /* .bkglvl1{
     background-image:url("/images/pics/10.jpg");
